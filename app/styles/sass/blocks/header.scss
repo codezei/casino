@@ -1,0 +1,30 @@
+.header {
+    background-color: #180F2F;
+    padding: 10px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    &__text {
+        font-family: 'Montserrat';
+        font-size: 24px;
+        font-weight: 900;
+        text-align: right;
+        line-height: 1;
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+    &__badge {
+        color: #190D3A;
+        background-color: #FBD254;
+        border: 6px solid #735d3e;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Fredoka One';
+        text-align: center;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,40 @@
+.btn {
+    font-weight: 800;
+    color: #FBD254;
+    border: 2px solid #FBD254;
+    border-radius: 90px;
+    padding: 10px;
+    min-width: 170px;
+    background: transparent;
+    outline: none;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 400ms;
+    &:hover {
+        background: linear-gradient(270deg, #FFFFFF -5%, rgba(255, 255, 255, 0) 100%), #FBD254;
+        color: #000;
+        transition: all 400ms;
+    }
+}
+.btn--outline {
+    background: linear-gradient(270deg, #FFFFFF -5%, rgba(255, 255, 255, 0) 100%), #FBD254;
+    color: #000;
+    &:hover {
+        background: transparent;
+        color: #FBD254;
+    }
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 900;
+    @media (max-width: 991px) {
+        font-size: 32px;
+    }
+    @media (max-width: 767px) {
+        font-size: 28px;
+    }
+}
